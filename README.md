@@ -2,7 +2,7 @@
 Using 9.1 million rows of 2025 hourly BART ridership data, I analyzed weekly demand patterns across all 50 stations and built a SQL anomaly detection pipeline that flags unusual ridership days. I then matched the flagged days to real world events such as parades, festivals and a track fire.
 
 # Key Findings 
-- **Ridership is concentrated midweek.** Tuesday through Thursday averages around 180,000 riders a day, while Mondays and Fridays average araound 148,000 - 152,000 riders, consistent with hybrid work schedules
+- **Ridership is concentrated midweek.** Tuesday through Thursday averages around 180,000 riders a day, while Mondays and Fridays average around 148,000 - 152,000 riders, consistent with hybrid work schedules
 - **Weekdays have two sharp commute peaks.** A large spike at 8 am hour and another at 5 pm hour
 - **Weekends have far fewer riders.** Saturday and especially Sundays have the least amount of riders with weekend peaks in the late afternoon.
 
